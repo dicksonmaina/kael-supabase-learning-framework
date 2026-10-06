@@ -1,8 +1,34 @@
-.env.supabase
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+.credentials
+*.key
+credentials.json
+
+# Python
+__pycache__
+*.pyc
+.venv
+.venv/
+
+# Node
+node_modules
+
+# Build/dist
+dist
+build
+.next
+
+# Docs/build artifacts
 *.pdf
 *.docx
 *.pptx
-*.zip
-*.tar.gz
-__pycache__/
-*.pyc
+
+# Supabase local
+.supabase
+

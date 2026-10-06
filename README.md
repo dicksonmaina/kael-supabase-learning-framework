@@ -1,3 +1,6 @@
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Status](https://img.shields.io/badge/status-active-success)
+
 # Kael Supabase Learning Framework
 
 A reproducible framework for ingesting study materials into Supabase, organizing them into learning programs, and making them queryable via REST or SQL.
